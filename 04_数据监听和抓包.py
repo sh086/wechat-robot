@@ -18,4 +18,5 @@ tab.listen.start('spa1.scrape.center/api/movie')
 # 访问主页
 tab.get('https://spa1.scrape.center/')
 
-https://www.bilibili.com/video/BV1S7sbenEM6?spm_id_from=333.788.player.switch&vd_source=f87f39b1af12eeb6301c7d9944f97ec9
+for packet in tab.listen.steps():
+    pprint(packet.response.body)
