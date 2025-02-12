@@ -44,7 +44,6 @@ def fetch_and_save_chapter(chapter_title, chapter_url):
 # for aa in list_chapter:
 #     fetch_and_save_chapter(aa, chapter_dict[aa])
 
-
 #- 多线程
 def main():
     # 创建一个线程池，最多允许 4 个线程同时运行
@@ -56,5 +55,3 @@ def main():
 if __name__ == "__main__":
     main()
     input("按下回车键退出")
-
-https://www.bilibili.com/video/BV1S7sbenEM6?spm_id_from=333.788.player.switch&vd_source=f87f39b1af12eeb6301c7d9944f97ec9
